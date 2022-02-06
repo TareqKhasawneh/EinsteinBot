@@ -1,4 +1,4 @@
-from discord.ext import commands
+from discord.exe import commands
 
 def shared_cooldown(rate, per, type=commands.BucketType.default):
     cd = commands.Cooldown(rate, per)
